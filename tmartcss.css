@@ -1,0 +1,204 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25 Nov, 2020, 12:35:56 PM
+    Author     : tusha
+*/
+
+body{
+    background-color:white;
+}
+a{
+    
+    color:blue;
+    text-decoration: none;
+}
+
+.Admin_header{
+    float:left;
+    margin-top: 2px;
+    text-align:center;
+    font-size: 25px;
+    width:200px;
+}
+.Admin_header:hover a{
+    color:darkred;
+    font-size: 30px;
+    transition-delay:.1s;
+}
+
+
+
+a:hover111{
+    color: orangered;
+    background-color: cyan;
+    border: 3px solid red;
+}
+
+#subcatlabel{
+    color:white;
+    background-color:green;
+    margin:2px;
+    padding:5px;
+    font-size:20px;
+    border:1px solid green;
+}
+#subcatlabel:hover{
+    color:green;
+    background-color:aqua ;
+   
+}
+#subcatlabel:hover #a1{
+    color:red;
+  
+   
+}
+#a1{
+    color:white;
+}
+
+#pimg{
+    text-decoration: none;
+}
+
+#subcatimg{
+    float:left;
+    overflow: auto;
+    padding:5px;
+    margin-left:40px;
+    margin-top:30px;
+    
+    
+}
+
+#subcatimg:hover{
+    background-color:blanchedalmond;
+}
+
+#imgprice{
+    margin-top:5px;
+    text-align:center;
+    font-size:15px;
+    color:blue;
+}
+
+.homeheader{
+    float:left;
+    margin-top: 2px;
+    text-align:center;
+    font-size: 25px;
+    width:150px;
+    
+   
+}
+.homeheader:hover a{
+    color:darkred;
+    font-size: 30px;
+    transition-delay:.1s;
+}
+
+#showcart{
+    width:95%;
+    margin-top:10px;
+    margin-bottom:5px;
+    margin-left: 15px;
+    overflow:auto;
+    border-bottom: 2px solid black;
+    
+   
+}
+
+#cartimg{
+    float:left;
+    width:120px;
+    margin-left:30px;
+    
+}
+
+#cart_name_price{
+    margin-left:30px;
+    margin-top:30px;
+    float:left;
+    width:200px;
+    text-align:center;
+    border: 0px solid blue;
+}
+#cart_qty_upd{
+    margin-left:90px;
+    margin-top:30px;
+    float:left;
+    width:200px;
+    text-align:left;
+    border:0px solid red;
+}
+#cart_sfl_remove{
+    
+    margin-top:20px;
+    float:right;
+    width:200px;
+    border:0px solid red;
+}
+#cart_totalvalue{
+    overflow:auto;
+    margin:20px;
+    float:left;
+    font-size:20px;
+    color: darkmagenta;
+}
+
+#product_order{
+    float:right;
+    overflow:auto;
+    margin-right:11%;
+    margin-top: 10px;
+    font-size:20px;
+    color: blue;
+    padding:5px;
+    background:lightcyan;
+    color:darkblue;
+    font-weight:bold;
+    border:2px solid black;
+}
+
+#buy_now{
+    margin:30px;
+    color:green;
+    font-size: 25px;
+    overflow: auto;
+    border:0px solid red;
+    font-weight: bold;
+}
+
+#show_edit_products{
+    width:30%;
+    height: 180px;
+    margin-top:10px;
+    margin-bottom:5px;
+    margin-left: 35px;
+    overflow:auto;
+    float:left;
+    border: 2px solid black;
+    
+    
+}
+#show_edit_products_image{
+    float:left;
+    width:120px;
+    height: 50px;
+    margin:15px;
+}
+#show_edit_products_image:hover{
+    background-color:black;
+}
+#show_edit_name_price{
+    margin-left:20px;
+    margin-top:30px;
+    
+    float:left;
+    width:250px;
+    text-align:center;
+    border: 0px solid blue;
+}
